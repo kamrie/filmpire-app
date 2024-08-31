@@ -142,7 +142,7 @@ h3{
    transform:scale( 1.05);
  }
 
- @media screen and (max-width:602){
+ @media screen and (max-width:663px){
   
 
     .app{
@@ -154,8 +154,10 @@ h3{
       width: 100%;
     }
     
+
     .search input{
         font-size: 1rem;
+        
     }
 
     .search img{
@@ -165,9 +167,20 @@ h3{
  }
 
 
-
+ @media screen and (max-width:580px){
+  .search{
+    padding: 2rem 9.75rem;
+    width: 200%;
+  }
+  
+}
 
  @media screen and (max-width:400px){
+
+  .search{
+    padding: 2rem 9.75rem;
+    width: 30%;
+  }
 
 .app{
   padding: 4rem 1rem;
@@ -176,11 +189,11 @@ h3{
 h1{
      font-size: 2rem;
    }
-   .container{
+.container{
      margin-top: 2rem;
    }
 
-   .movie{
+.movie{
      width: 100%;
      margin: 1rem;
-   }
+   }}
